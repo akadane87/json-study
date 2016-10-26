@@ -37,24 +37,47 @@ As it makes sense to you please write the following in JSON format:
 -   A Love of the Red Sox, Patriots and Bruins
 -   Has lived in two places recently: 123 Fake street, and 2 Muchinfo Road
 
-```json
-<!-- your answer here -->
-```
+<!--```json
+
+{
+  "title": "Jason has Many Things":
+        "A cat named Mr. Kitty",
+        "Two Roomates": "Dave", "Miller"
+        "A love for: "redsox", "patriots", "bruins"
+        "Has lived:" "123 Fake street", "2 Muchinfo Road"
+}
+-->
 
 I forgot, my roomate Dave has two goldfish, one named Bob (he's red) and the
 other named Mr.MagicNibbles (yellow) and bites a bit. Please copy the JSON you
 already wrote and include the information about Dave's fish.
+<!--
 
 ```json
-<!-- your answer here -->
-```
 
+
+{
+  "title": { "Jason has Many Things":
+        "A cat named Mr. Kitty",
+        "Two Roomates": "Dave", "Miller"
+        "A love for: "redsox", "patriots", "bruins"
+        "Has lived:" "123 Fake street", "2 Muchinfo Road"
+           "Pets":  {
+                "Goldfish:" {
+                    "Bob": "Red"
+                    "Mr.MagicNibbles": "yellow" "bites a bit"
+                }
+           }
+
+    }
+}
+-->
 ## JSON Methods
 
 Using the JSON your wrote above, can you write a method on the JSON?
 
 ```json
-<!-- your answer here -->
+NO!! json cannot have methods
 ```
 
 ## JSON Comments
@@ -62,5 +85,5 @@ Using the JSON your wrote above, can you write a method on the JSON?
 Using the JSON your wrote above, can you write a comment in the JSON?
 
 ```json
-<!-- your answer here -->
+No!! JSON cannot have comments either
 ```
